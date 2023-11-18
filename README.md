@@ -2,14 +2,17 @@
 
 ## Launching Cypress
 In your CLI, type in:
-`node_modules/.bin/cypress open`
-Or for this app, in ./Learning-Cypress:
-`./run_cypress.sh`
+`npm run cypress:open`
+Or use
+`npx cypress open`
 
 ### Docs and Guides
 [Docs](https://docs.cypress.io/guides/overview/why-cypress)
 [Courses](https://learn.cypress.io/#courses)
 
+#### E2E vs Component Testing
+- E2E: run the whole application and visit pages to test them
+- Component Testing: mount individual components of my app and test them in isolation
 
 ### Notes
 Cypress is a frontend web automation testing tool for modern web applications.
