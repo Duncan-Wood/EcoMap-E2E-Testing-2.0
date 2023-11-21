@@ -1,4 +1,4 @@
-# Learning-Cypress
+# EcoMap E2E Testing with Cypress
 
 ## Launching Cypress
 In your CLI, type in:
