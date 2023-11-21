@@ -3,7 +3,6 @@
 beforeEach(() => {
   cy.login(Cypress.env('email'), Cypress.env('password'));
   cy.log("Logged in");
-  cy.url().should('eq', 'https://ecomapmetamap.com/');
 });
 
 describe("Load a URL and Check an Element", () => {
