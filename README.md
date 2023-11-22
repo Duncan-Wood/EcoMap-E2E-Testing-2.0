@@ -4,7 +4,10 @@
 In your CLI, type in:
 `npx cypress open`
 
-## All commands start with
+### Command List
+- [Queries, Assertions, Actions, and Other](https://docs.cypress.io/api/table-of-contents)
+
+## Commands start with
 `cypress run [options]`
 _[replace [options] with...](https://docs.cypress.io/guides/guides/command-line)_
 - `--spec` </br >
